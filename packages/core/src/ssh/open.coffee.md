@@ -91,7 +91,7 @@ require('nikita')({
 })
 .ssh.open()
 .call(function(options){
-  assert(!!@ssh(), true)
+  assert(!!this.ssh(), true)
 })
 .ssh.close()
 ```
